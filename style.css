@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+}
+
+body {
+    width: 100%;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF6EA;
+    color: #3A3845;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #C69B7B;
+    display: flex;
+    padding: 10px;
+}
+
+header img {
+    width: 170px;
+    height: 170px;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+}
+
+.main {
+    display: flex;
+}
+
+.main > .data {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF6EA;
+}
+
+.main > nav{
+    width: 200px;
+    background:#F7CCAC;;
+}
+
+nav
+.nav__item
+.nav__list{
+    margin-left: 20px;
+}
+
+nav
+.nav__item
+.nav__list a {
+    color: #3A3845;
+}
+
+nav
+.nav__item
+.nav__list a:hover {
+    color: #aba5c4;
+}
+
+
+.data table tr td{
+    text-align: center;
+}
+
+footer, nav, .data{
+    padding: 1em;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    background: #C69B7B;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
